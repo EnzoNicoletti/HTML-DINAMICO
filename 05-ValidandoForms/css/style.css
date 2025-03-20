@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Fondamento';
+    src: url(../fontes/Fondamento-Regular.ttf);
+}
+
+body{
+    font-family: 'Fondamento';
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    width: 99%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#inNome, #inIdade{
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+
+#btnEnviar{
+    font-size: 50px;
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+    background-color: #C1CFA1;
+}
