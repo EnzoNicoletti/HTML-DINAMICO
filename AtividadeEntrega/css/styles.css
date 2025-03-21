@@ -87,6 +87,7 @@ button {
 }
 
 #mensagem-erro {
+    opacity: 0;
     background-color: #f0abaf;
     color: red;
     padding: 10px 15px;
@@ -98,11 +99,15 @@ label {
 }
 
 #canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: lightgray;
     padding: 10px 15px;
     margin: 15px 0px; 
     width: 100%;
     min-height: 150px;
+    flex-wrap: wrap;
 }
 
 .imagens {

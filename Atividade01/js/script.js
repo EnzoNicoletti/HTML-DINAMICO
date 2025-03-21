@@ -29,26 +29,49 @@ const trocarImagem = () => {
 
 var resultado = document.getElementById("inResultado");
 
-const somar = () =>{
-    let valor1 = frmCalculadora.inValor1.value
-    let valor2 = frmCalculadora.inValor2.value
-    resultado.value = parseInt(valor1) + parseInt(valor2);
+const calcular = (operador) =>{
+  let valor1 = parseFloat(frmCalculadora.inValor1.value)
+  let valor2 = parseFloat(frmCalculadora.inValor2.value)
+
+  switch (operador) {
+    case "+":
+      resultado.value = valor1 + valor2
+      break;
+
+      case "-":
+      resultado.value = valor1 - valor2
+      break;
+
+      case "*":
+        resultado.value = valor1 * valor2
+        break;
+
+        case "/":
+          resultado.value = valor1 / valor2
+          break;
+  }
 }
 
-const subtrair = () =>{
-  let valor1 = frmCalculadora.inValor1.value
-  let valor2 = frmCalculadora.inValor2.value
-  resultado.value = parseInt(valor1) - parseInt(valor2);
-}
+// const somar = () =>{
+//   let valor1 = frmCalculadora.inValor1.value
+//   let valor2 = frmCalculadora.inValor2.value
+//   resultado.value = parseInt(valor1) + parseInt(valor2);
+// }
 
-const mult = () =>{
-  let valor1 = frmCalculadora.inValor1.value
-  let valor2 = frmCalculadora.inValor2.value
-  resultado.value = parseInt(valor1) * parseInt(valor2);
-}
+// const subtrair = () =>{
+//   let valor1 = frmCalculadora.inValor1.value
+//   let valor2 = frmCalculadora.inValor2.value
+//   resultado.value = parseInt(valor1) - parseInt(valor2);
+// }
 
-const dividir = () =>{
-  let valor1 = frmCalculadora.inValor1.value
-  let valor2 = frmCalculadora.inValor2.value
-  resultado.value = parseInt(valor1) / parseInt(valor2);
-}
+// const mult = () =>{
+//   let valor1 = frmCalculadora.inValor1.value
+//   let valor2 = frmCalculadora.inValor2.value
+//   resultado.value = parseInt(valor1) * parseInt(valor2);
+// }
+
+// const dividir = () =>{
+//   let valor1 = frmCalculadora.inValor1.value
+//   let valor2 = frmCalculadora.inValor2.value
+//   resultado.value = parseInt(valor1) / parseInt(valor2);
+// }

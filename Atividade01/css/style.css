@@ -26,6 +26,15 @@ hr{
     width: 99%;
 }
 
+#frmCalculadora input, button {
+    padding: 5px 10px;
+    margin: 10px 20px;
+}
+
+#frmCalculadora button{
+    width: 100px;
+}
+
 #botoes{
     display: flex;
     flex-wrap: wrap;
