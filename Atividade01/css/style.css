@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Fondamento';
+    src: url(../fontes/Fondamento-Regular.ttf);
+}
+
+body{
+    font-family: 'Fondamento';
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #71BBB2;
+    
+}
+
+#imagem{
+    width: 500px;
+    height: auto;
+    border: 3px solid wheat;
+}
+
+hr{
+    width: 99%;
+}
+
+#botoes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    justify-content: space-evenly;
+}

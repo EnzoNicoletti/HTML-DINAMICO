@@ -9,14 +9,14 @@
   <body>
     <!-- Exercício 1 - Toque a imagem aleatoriamente quando clicar sobre ela -->
     <h1>Exercício 1 - Trocando as imagens</h1>
-    <img id="imagem" src="" onclick="trocarImagem();" />
+    <img id="imagem" src="./img/PDF.jpg" onclick="trocarImagem();" />
     <br />
     <hr />
 
     <!-- Exercício 2 - Faça a calculadora funcionar -->
     <h1>Exercício 2 - Calculadora</h1>
     <form id="frmCalculadora" name="frmCalculadora">
-      <div>
+      <div id="calc">
         <input
           id="inValor1"
           name="inValor1"
@@ -42,10 +42,10 @@
         />
       </div>
       <div id="botoes">
-        <button id="btnSoma" type="button">Somar</button>
-        <button id="btnSubracao" type="button">Subtrair</button>
-        <button id="btnMultiplicacao" type="button">Multiplicar</button>
-        <button id="btnDivisao" type="button">Dividir</button>
+        <button onclick="somar()" id="btnSoma" type="button">Somar</button>
+        <button onclick="subtrair()" id="btnSubracao" type="button">Subtrair</button>
+        <button onclick="mult()" id="btnMultiplicacao" type="button">Multiplicar</button>
+        <button onclick="dividir()"id="btnDivisao" type="button">Dividir</button>
       </div>
     </form>
 
