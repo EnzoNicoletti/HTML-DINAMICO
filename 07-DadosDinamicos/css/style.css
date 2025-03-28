@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'Fondamento';
+    src: url(../font/Fondamento-Regular.ttf);
+}
+
+body{
+    /* zerando configuração css */
+    font-family: 'Fondamento';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* cor */
+    background-color: slategray;
+
+    /* alinhamento */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnAtualizar{
+    width: 200px;
+    padding: 5px;
+    margin: 25px 5px;
+}
+
+th{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    background-color: chocolate;
+    min-width: 300px;
+}
+
+tr{
+    text-align: center;
+    background-color: #fff;
+}
+
+.listra{
+    background-color: burlywood;
+}
